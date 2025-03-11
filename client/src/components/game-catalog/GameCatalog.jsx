@@ -10,8 +10,6 @@ export default function GameCatalog() {
             .then(res => setGames(res));
     }, []);
 
-    console.log(games);
-
     return(
         <>
         {/* Catalogue */}
