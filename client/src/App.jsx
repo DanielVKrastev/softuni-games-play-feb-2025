@@ -9,8 +9,17 @@ import GameCreate from './components/game-create/GameCreate'
 import GameCatalog from './components/game-catalog/GameCatalog'
 import GameDetails from './components/game-details/GameDetails'
 import GameEdit from './components/game-edit/GameEdit'
+import { useState } from 'react'
 
 function App() {
+  const [email, setEmail] = useState('');
+
+  const userLoginHandler = (email) => {
+    setEmail(email);
+  }
+  console.log(email);
+  
+
   return (
       <div id="box">
           <Header />
@@ -23,7 +32,7 @@ function App() {
                   <Route path='/games/create' element={<GameCreate />} />
                   <Route path='/games/:gameId/details' element={<GameDetails />} />
                   <Route path='/games/:gameId/edit' element={<GameEdit />} />
-                  <Route path='/login' element={<Login />} />
+                  <Route path='/login' element={<Login onLogin={userLoginHandler} />} />
                   <Route path='/register' element={<Register />} />
               </Routes>
           </main>
