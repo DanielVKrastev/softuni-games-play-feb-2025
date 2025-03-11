@@ -1,0 +1,26 @@
+{
+    "bde60220-c6e7-4fdc-af8a-1944af24f705": {
+        "title": "Test",
+        "category": "asdasdadas",
+        "maxLevel": "12",
+        "imageUrl": "https://cookinglsl.com/wp-content/uploads/2018/02/Vegan-Bulgarian-Easy-White-Bean-Soup-3-1-660x924.jpg",
+        "summary": "dasdadadada",
+        "_id": "bde60220-c6e7-4fdc-af8a-1944af24f705"
+    },
+    "acb5247f-03c4-40b3-b84f-29c2b4028e1d": {
+        "title": "MK11 Ultimate",
+        "category": "Fighting",
+        "maxLevel": "40",
+        "imageUrl": "https://store-images.s-microsoft.com/image/apps.3218.14189292593912942.341610e6-d1ca-4699-8cb5-bf6e900e0cee.0b3f414e-50b7-4e47-9372-15e09e4632ff?q=90&w=480&h=270",
+        "summary": "MK11 Ultimate features the komplete 37-character roster, including new additions Rain, Mileena & Rambo. Mortal Kombat 11 showcases every amusing friendship, gory fatality and soul-crushing fatal blow like never before. You'll be so close to the fight, you can feel it!",
+        "_id": "acb5247f-03c4-40b3-b84f-29c2b4028e1d"
+    },
+    "bc53be6b-321e-443d-becb-ddd76555b2a7": {
+        "title": "Need for Speed Heat",
+        "category": "Racing",
+        "maxLevel": "50",
+        "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202210/3121/Xz6kd2CORZxe8JnfNJwvA35A.png",
+        "summary": "In Need for Speed Heat, the lines of the law fade when the sun starts to set. By daylight, compete in the Speedhunter Showdown, a series of sanctioned events where you can earn Bank to customize your personal fleet of cars. When your ride's styled just right, ramp up the intensity at night.",
+        "_id": "bc53be6b-321e-443d-becb-ddd76555b2a7"
+    }
+}
